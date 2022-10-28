@@ -1,0 +1,14 @@
+.pop-up-translate{
+    background-color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+.word{
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+}
+.meaning{
+    font-size: 12px;
+    padding-top: 12px;
+}

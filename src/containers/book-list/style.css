@@ -1,0 +1,14 @@
+.book-list-heading{
+  display:flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.book-list-container {
+  display: flex;
+  gap: 2rem;
+  row-gap: 4rem;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}

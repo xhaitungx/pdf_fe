@@ -1,0 +1,35 @@
+.book-item{
+  position: relative;
+}
+.book-item, .book-cover {
+  width: 120px;
+  height: 180px;
+}
+
+.book-item p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.delete-area{
+  position: fixed;
+  width: 120px;
+  height: 180px;
+background-color: rgba(0, 0, 0, 0.4);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.menu-button{
+  position: absolute;
+  top: 0px;
+  right:0px;
+}
+
+.group-button{
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}

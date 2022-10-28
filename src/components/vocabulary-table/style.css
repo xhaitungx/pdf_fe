@@ -1,0 +1,27 @@
+.vocabulary-table-container {
+  width: 45%;
+}
+
+.vocabulary-table-container .header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.header h3{
+    color:white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.MuiTablePagination-displayedRows{
+  display: none !important; 
+}
+
+@media only screen and (max-width: 720px) {
+  .vocabulary-table-container{
+    width: 90%;
+  } 
+}

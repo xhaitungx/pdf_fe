@@ -1,0 +1,26 @@
+.book-item{
+  position: relative;
+  padding-bottom: 1rem;
+}
+.book-item, .book-cover {
+  width: 120px;
+  height: 180px;
+}
+
+.book-item p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-button{
+  position: absolute;
+  top: 0px;
+  right:0px;
+}
+
+.group-button{
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}

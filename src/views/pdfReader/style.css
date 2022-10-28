@@ -1,0 +1,7 @@
+.note-book-pop-up{
+    position: fixed;
+    width: 250px;
+    height: 120px;
+    padding: 1rem 2rem;
+    background: var(--blue-light);
+}

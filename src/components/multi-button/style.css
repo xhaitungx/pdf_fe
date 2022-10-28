@@ -1,0 +1,10 @@
+.multi-button {
+  position: fixed;
+  right: 60px;
+  bottom: 25px;
+}
+
+.selective-button{
+  display:flex;
+  flex-direction: column;
+}

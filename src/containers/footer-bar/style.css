@@ -1,0 +1,10 @@
+#pd-footer-bar ul{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+    color: black !important;
+    background-color: white;
+}
